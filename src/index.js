@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Header from './Header';
+import Footer from './Footer';
+import Greeting from './Greeting';
+import Main from './Main';
+import Corse from './Corse';
+import About from './About';
+import Conversion from './Conversion';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Main />
+    <Greeting />
+    <Corse />
+    <About />
+    <Conversion />
+    <Footer />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
