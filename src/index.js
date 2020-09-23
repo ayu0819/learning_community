@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Header from './Header';
@@ -20,7 +20,7 @@ ReactDOM.render(
     <About />
     <Conversion />
     <Footer />
-    {/* <App /> */}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
